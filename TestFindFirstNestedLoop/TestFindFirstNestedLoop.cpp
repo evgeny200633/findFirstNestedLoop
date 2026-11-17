@@ -64,7 +64,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int a = 1;",
 				"a++;",
@@ -143,7 +143,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"i++;",
@@ -180,7 +180,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"",
 				"{",
 				"   ",
@@ -214,7 +214,7 @@ namespace TestFindFirstNestedLoop
 			{
 				"#include <stdio.h>",
 				"#define COUNT 3",
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < COUNT; i++)",
@@ -247,7 +247,7 @@ namespace TestFindFirstNestedLoop
 				"int i = 0;",
 				"i++;",
 				"}",
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -283,7 +283,7 @@ namespace TestFindFirstNestedLoop
 				"i++;",
 				"}",
 				"}",
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int j;",
 				"while (j < 3)",
@@ -316,7 +316,7 @@ namespace TestFindFirstNestedLoop
 				"i++;",
 				"}",
 				"}",
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int j;",
 				"while (j < 3)",
@@ -642,7 +642,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -677,7 +677,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -740,7 +740,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -770,7 +770,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -800,7 +800,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -831,7 +831,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -866,7 +866,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -901,7 +901,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -936,7 +936,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -966,7 +966,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"if (i == 0)",
@@ -997,7 +997,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"if (i == 0)",
@@ -1032,7 +1032,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"switch (i)",
@@ -1067,7 +1067,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"{",
@@ -1097,7 +1097,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1124,7 +1124,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"while (f(g(i), (j + 1) * 2) > 0)",
@@ -1152,7 +1152,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int j;",
 				"do",
@@ -1178,7 +1178,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"do",
@@ -1208,7 +1208,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1237,7 +1237,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"do",
@@ -1545,7 +1545,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1575,7 +1575,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1610,7 +1610,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1645,7 +1645,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"do",
@@ -1675,7 +1675,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"if (i == 0)",
@@ -1736,7 +1736,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1764,7 +1764,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1793,7 +1793,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1823,7 +1823,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++) // outer loop",
@@ -1851,7 +1851,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -1880,7 +1880,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"//",
 				"int i, j;",
@@ -1942,7 +1942,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, whileFlag, doWork, format;",
 				"for (i = 0; i < 3; i++)",
@@ -1969,7 +1969,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j, done, forward;",
 				"for (i = 0; i < forward; i++)",
@@ -2229,7 +2229,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -2258,7 +2258,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"for (i = 0; i < 3; i++)",
@@ -2293,7 +2293,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)",
+				"void main(void)",
 				"{",
 				"int i, j;",
 				"if (i == 0)",
@@ -2503,7 +2503,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)\r\n",
+				"void main(void)\r\n",
 				"{\r\n",
 				"int i, j;\r\n",
 				"for (i = 0; i < 3; i++) // outer\r\n",
@@ -2532,7 +2532,7 @@ namespace TestFindFirstNestedLoop
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
 			{
-				"int main(void)\r\n",
+				"void main(void)\r\n",
 				"{\r\n",
 				"int i, j;\r\n",
 				"for (i = 0; i < 3; i++)\r\n",
