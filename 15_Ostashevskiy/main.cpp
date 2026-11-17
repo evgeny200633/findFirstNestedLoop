@@ -1,37 +1,51 @@
-#include "findFirstNestedLoop/findFirstNestedLoop.h"
+﻿#include "findFirstNestedLoop/findFirstNestedLoop.h"
 
 #include <stdio.h>
 #include <string.h>
 
 #pragma warning (disable:4996)
-#pragma warning (disable:6031) // ������������ �������� ��������� : "scanf".
 
 int main()
 {
-	int M;
-	scanf("%d", &M);
+	int strCount;
+	char text[MAX_STR_COUNT][MAX_STR_LENGTH];
 
-	if (M < 1 || M > MAX_STR_COUNT)
+	if (scanf("%d", &strCount) != 1)
 	{
-		printf("invalid input data: str count %d is out of range [1, %d]\n", M, MAX_STR_COUNT);
+		printf("invalid input data: expected string count\n");
 		return 0;
 	}
 
-	while (getchar() != '\n');
+	if (strCount < 1 || strCount > MAX_STR_COUNT)
+	{
+		printf("invalid input data: string count %d is out of range [1, %d]\n", strCount, MAX_STR_COUNT);
+		return 0;
+	}
 
-	char text[MAX_STR_COUNT][MAX_STR_LENGTH];
+	// Очищаем буфер ввода от символа перевода строки после ввода числа
+	int ch = getchar();
+	while (ch != '\n' && ch != EOF)
+	{
+		ch = getchar();
+	}
 
-	for (int i = 0; i < M; ++i)
+	for (int i = 0; i < strCount; ++i)
 	{
 		if (gets_s(text[i], MAX_STR_LENGTH) != NULL)
 		{
-			text[i][strcspn(text[i], "\n")] = '\0';
+			// Удаляем возможные символы переноса
+			text[i][strcspn(text[i], "\n\r")] = '\0';
+		}
+		else
+		{
+			// Пустая строка
+			text[i][0] = '\0';
 		}
 	}
 
-	int ret = findFirstNestedLoop(text, M, 0);
+	int result = findFirstNestedLoop(text, strCount, 0);
 
-	if (ret > 0)
+	if (result > 0)
 	{
 		printf("1\n");
 	}
