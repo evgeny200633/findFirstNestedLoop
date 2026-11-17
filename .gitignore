@@ -1,4 +1,10 @@
+# Generated Doxygen documentation
+.doxygen/
+
+# Visual Studio temporary files
 .vs/
+
+# Build products
 Debug/
 Release/
 x64/
