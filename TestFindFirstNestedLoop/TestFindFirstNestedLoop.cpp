@@ -1905,7 +1905,7 @@ namespace TestFindFirstNestedLoop
 			Assert::AreEqual(exp_result, result);
 		}
 
-		// 63) Идентификаторы с частями ключевых слов
+		// 63) Идентификаторы с частями ключевых слов в названиях переменных
 		TEST_METHOD(identifiersWithKeywordParts)
 		{
 			const char in_text[MAX_STR_COUNT][MAX_STR_LENGTH] =
