@@ -723,9 +723,13 @@ namespace TestFindFirstNestedLoop
 				"}",
 				"}",
 				"}"
+				"void main(void)",
+				"{",
+				"f();",
+				"}"
 			};
 
-			const int in_strCount = 10;
+			const int in_strCount = 14;
 			const int in_startLine = 0;
 
 			const int exp_result = 4;
